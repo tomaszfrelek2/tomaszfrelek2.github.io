@@ -9,7 +9,7 @@ last_name: Frelek
 contact_note: >
   Best way to reach me is to email me @ tfrelek@ucsd.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  My website!.
+  My website!
 footer_text: >
   Templete from <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -48,7 +48,7 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 posts_in_search: true
 bib_search: true
@@ -175,13 +175,13 @@ include: ["_pages", "_scripts"]
 exclude:
   - _news/
   - _books/
-  - _pages/blog.md
-  - _pages/books.md
-  - _pages/dropdown.md
-  - _pages/news.md
-  - _pages/profiles.md
-  - _pages/teaching.md
-
+  #- _pages/blog.md
+ # - _pages/books.md
+ # - _pages/dropdown.md
+ # - _pages/news.md
+ # - _pages/profiles.md
+ # - _pages/teaching.md
+ # - _pages/publications.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md

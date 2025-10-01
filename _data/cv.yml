@@ -2,96 +2,113 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Tomasz Frelek
+    - name: Contact
+      value: 513-858-9691 | <a href="mailto:tfrelek@ucsd.edu">tfrelek@ucsd.edu</a>
+    - name: Links
+      value: <a href="https://linkedin.com/in/tomasz-frelek-bb93291a1">LinkedIn</a> | <a href="https://github.com/tomaszfrelek2">GitHub</a> | <a href="https://tomaszfrelek2.github.io/">Website</a>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. Computer Science, Research Distinction
+      institution: University of California San Diego, San Diego, CA
+      year: 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA: 4.00
+    - title: B.S. Computer Science Engineering, A.I. Specialization
+      institution: The Ohio State University, Columbus, OH
+      year: 2021 - 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Also awarded B.S. Mathematics, Theoretical Track
+        - GPA: 3.88
 
-- title: Experience
+- title: Industry Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Radar Perception Engineer
+      institution: Oculii, Dayton, OH
+      year: Summer 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed BEV transformer models for 3D object detection and semantic mapping, enhancing the perception system's MOTA score by 15%.
+        - Engineered a modular model evaluation package for object detection models. The tool assessed performance using MOTA metrics and custom, definable parameters, which accelerated feedback cycles 2X.
+        - Engineered a synthetic data pipeline using CARLA and DSpace simulators to generate realistic radar data, generated 100,000 frames of synthetic data, improving model performance in complex and hard-to-reproduce scenarios.
+        - Contributed to project preparations for the Consumer Electronics Show (CES) by developing tools for data synchronization and calibration, including: creating camera calibration matrices, implementing a system to align global and local positioning data for accurate data merging, and synchronizing GPS and local street data to build comprehensive route representations.
+    - title: Software Engineer
+      institution: JPMorgan Chase, Columbus, OH
+      year: Summer 2023/2024
       description:
-        - Description 1.
-        - Description 2.
+        - Used Python and industry standard frameworks like Flask and Unittest to create an internal interface for Amazon S3 that streamlined access to data, increased data access speed by 50%, and facilitated faster software development firm-wide across hundreds of development teams
+        - Executed software development tasks using Java, SpringBoot, and React to develop a comprehensive health check application for a data pipeline service, facilitating the transfer of petabytes of data for dozens of development and regulatory teams.
+        - Leveraged CI/CD frameworks like, Jenkins and Maven, to streamline application development and deployment.
+        - Utilized Agile development principles and Git for version control to collaborate with dozens of inter-departmental development teams on the development of a data pipeline interface utilized by 500+ of developers.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Research Assistant | Advisor Prof. John Paparrizos
+      institution: Time Series Classification and Forecasting, Columbus, OH
+      year: Jan 2024 - May 2025
+      description:
+        - Conducting research focused on implementing time series classification and forecasting algorithms and experimentally analyzing their efficacy.
+        - Building a comprehensive library of 60+ time series classification algorithms, implementing a unified interface for seamless integration into academic and industrial applications.
+        - Reading and analyzing novel industry papers to extract insights from cutting-edge methods and theories. Applying this knowledge by implementing algorithms and methodologies outlined in literature
+        - Utilizing Pytorch to develop, implement, and train deep-learning algorithms for time series classification.
+    - title: Research Assistant | Advisor Prof. Wei-Lun Chao
+      institution: Computer Vision for Ecological and Autonomous System Applications, Columbus, OH
+      year: Aug 2024 - Aug 2025
+      description:
+        - Pioneering Imageomics applications, integrating machine learning and computer vision for biological data analysis. Developing models for tasks such as species classification, trait labeling, and image segmentation.
+        - Learning with few or imperfect data in the context of autonomous driving, focusing on overcoming challenges such as limited, noisy, imbalanced datasets by developing one/few-shot learning algorithms, synthetic data generation/augmentation, and leveraging transfer learning techniques.
 
-- title: Honors and Awards
+- title: Papers
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Static Segmentation by Tracking A Frustratingly Label-Efficient Approach to Fine-Grained Segmentation
+      year: 2025
+      description:
+        - Zhenyang Feng, Zihe Wang, Saul Ibaven Bueno, <strong>Tomasz Frelek</strong>, et al.
+        - <em>ICML 2025 [Submitted]</em>
+    - title: Impact of Camera Defects on Detection in Autonomous Driving
+      year: 2025
+      description:
+        - <strong>Tomasz Frelek</strong>, Guanqun Song, Ting Zhu
+        - <em>SenSys 2025 [Submitted]</em>
 
-- title: Academic Interests
-  type: nested_list
+- title: Projects & Competitions
+  type: time_table
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: <a href="https://bitgrit.net/competition/23">NASA Airport Throughput Prediction Challenge</a>
+      institution: Time Series Forecasting Challenge
+      year: Fall 2024
+      description:
+        - Collaborating on a small team to develop a regression model to forecast airport throughput for U.S. airports, predicting flight arrivals over 15-minute intervals up to 3 hours into the future using flight and weather data.
+        - Constructing a comprehensive data pipeline from scratch to automate the process of data extraction, feature engineering, model training, and prediction, ensuring scalability and reproducibility
+        - Processing and analyzing large datasets, including FUSER, METAR, TAF, and CWAM data, totaling over 200 GB, to extract actionable features for model training and prediction.
+        - Using deep-learning network architectures such as LSTM and machine-learning frameworks like LightGBM to develop and implement a time series analysis model capable of predicting airport throughput; achieved 78.77% accuracy (9th/53 teams).
+    - title: <a href="https://anti-uav.github.io/">CVPR 2025 Anti-UAV Challenge</a>
+      institution: CVPR 2025 Workshop Challenge
+      year: Spring 2025
+      description:
+        - Developed an anti-UAV (drone) tracking and detection system by adapting and training two state-of-the-art computer vision models SiamFC (Siamese Fully-Convolutional Network) for object tracking and YOLOv11 for object detection.
+        - Engineered a custom data pipeline to subsample a large-scale dataset into a format suitable for both the SiamFC and YOLOv11 models.
+        - Implemented and evaluated the models, calculating metrics such as mean IoU, success rate, and mAP50 to validate performance.
 
-- title: Other Interests
-  type: list
+- title: Clubs & Leadership
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Perception Team
+      institution: Buckeye AutoDrive, Columbus, OH
+      year: Dec 2024 - May 2025
+      description:
+        - Collaborating with cross-functional teams to create an autonomous vehicle that can navigate urban driving courses as described by SAE Level 4 automation.
+        - Developing and integrating perception algorithms for real-time object detection, classification, and tracking using LIDAR point cloud data, live video recording, and auxiliary sensor support to enhance autonomous vehicle situational awareness.
+        - Designing and implementing deep learning models utilizing PyTorch for pedestrian detection and semantic segmentation, achieving 90% accuracy in trials.
+    - title: Treasurer
+      institution: O.S.U. AI Club, Columbus, OH
+      year: May 2023 - May 2024
+      description:
+        - Managed over $10,000 in club finances and sponsorships, created detailed budgets, tracked expenses, and ensured funds were strategically allocated to enhance club activities, resources, and outreach efforts.
+        - Organized HackAI, an AI-focused hackathon; Oversaw all aspects of event planning, including participant recruitment, logistics, securing sponsorships, and distributing $2,000 in prize money; resulted in over 150 participants and showcased innovative AI projects.
+        - Developed and lead a machine learning project series, designed with educational modules using scikit-learn and OpenCV to teach members practical skills, culminating in a handwriting detection and translation project that integrated real-time image processing and OCR techniques.
+        - Organized a university wide AI research expo with 15+ faculty presenters and 100+ students to connect eager students with professors conducting exciting AI research
