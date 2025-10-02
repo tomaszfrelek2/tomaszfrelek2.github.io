@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Chess w/ AI
-description: Made a  chess game with fully AI opponent
-img: assets/img/12.jpg
-importance: 1
-category: project
+description: Made a chess game with AI opponents and ascii graphics!
+img: assets/img/chess.jpg
+importance: 5
+category: Fun
 related_publications: False
 ---
 

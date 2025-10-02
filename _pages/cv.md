@@ -1,7 +1,7 @@
 ---
 layout: cv
-permalink: /Resume/
-title: Resume
+permalink: /resume/
+title: resume
 nav: true
 nav_order: 5
 cv_pdf: Resume.pdf # you can also use external links here

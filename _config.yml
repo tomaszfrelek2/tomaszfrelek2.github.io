@@ -175,13 +175,16 @@ include: ["_pages", "_scripts"]
 exclude:
   - _news/
   - _books/
-  #- _pages/blog.md
- # - _pages/books.md
- # - _pages/dropdown.md
- # - _pages/news.md
- # - _pages/profiles.md
- # - _pages/teaching.md
- # - _pages/publications.md
+  - _pages/blog.md
+  - _pages/books.md
+  - _pages/dropdown.md
+  - _pages/news.md
+  - _pages/profiles.md
+  - _pages/teaching.md
+  - _pages/publications.md
+  - _projects/7_project.md
+  - _projects/8_project.md
+  - _projects/9_project.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md

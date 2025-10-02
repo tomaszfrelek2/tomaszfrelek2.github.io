@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: Oculli Internship 2025
+description: Developed BEV transformer models for 3D object detection and semantic mapping, as well a auxiliary support tools.
+img: assets/img/oculii_logo.jpg 
+importance: 1
+category: Work
 ---
 
 Every project has a beautiful feature showcase page.

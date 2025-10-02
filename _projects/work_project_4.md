@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: JPMC Internship 2023
+description: Developed a comprehensive health check application for an internal data pipeline service,
+img: assets/img/jpmc_logo.jpg
+importance: 5
+category: Work
 ---
 
 Every project has a beautiful feature showcase page.
