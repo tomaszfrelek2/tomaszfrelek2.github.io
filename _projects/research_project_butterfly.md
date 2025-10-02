@@ -5,7 +5,7 @@ description: Utilized SAM2 for fine-grained segmentation.
 img: assets/img/butterfly.jpg
 importance: 2
 category: Research
-giscus_comments: true
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.

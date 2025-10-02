@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Oculii Internship 2025
-description: a project with no image
+description: Created a CARLA Simulation environment to aid in model training.
 img: assets/img/oculii_logo.jpg 
 importance: 2
 category: Work

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Oculli Internship 2025
-description: another without an image
+description: Prepared for the Consumer Electronics Show (CES) by developing tools for data synchronization and calibration
 img: assets/img/oculii_logo.jpg 
 importance: 3
 category: Work

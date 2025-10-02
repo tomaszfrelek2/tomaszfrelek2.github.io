@@ -6,7 +6,7 @@
     "email": "tfrelek@ucsd.edu",
     "phone": "513-858-9691",
     "url": "https://tomaszfrelek2.github.io/",
-    "summary": "A Master's student at UC San Diego with a background in Computer Science and Mathematics from The Ohio State University. Experienced in autonomous systems, computer vision, and time series analysis through industry internships at Oculii and JPMorgan Chase, and academic research. Passionate about developing perception systems for autonomous vehicles and applying machine learning to solve real-world challenges.",
+    "summary": "A Master's student at UC San Diego with a background in Computer Science and Mathematics from The Ohio State University. Experienced in autonomous systems, computer vision, and machine learning. Passionate about developing perception systems for autonomous vehicles and applying machine learning to solve real-world challenges.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -87,7 +87,7 @@
       ]
     }
   ],
-  "volunteer": [
+  "club": [
     {
       "organization": "Buckeye AutoDrive",
       "location": "Columbus, OH",
@@ -139,22 +139,6 @@
       "endDate": "2025-05-31",
       "score": "3.88",
       "courses": []
-    }
-  ],
-  "publications": [
-    {
-      "name": "Static Segmentation by Tracking: A Frustratingly Label-Efficient Approach to Fine-Grained Segmentation",
-      "publisher": "ICML 2025 [Submitted]",
-      "releaseDate": "2025-01-01",
-      "url": "",
-      "summary": "Authors: Zhenyang Feng, Zihe Wang, Saul Ibaven Bueno, Tomasz Frelek, et al."
-    },
-    {
-      "name": "Impact of Camera Defects on Detection in Autonomous Driving",
-      "publisher": "SenSys 2025 [Submitted]",
-      "releaseDate": "2025-01-01",
-      "url": "",
-      "summary": "Authors: Tomasz Frelek, Guanqun Song, Ting Zhu"
     }
   ],
   "skills": [

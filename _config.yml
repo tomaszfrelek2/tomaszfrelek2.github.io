@@ -182,6 +182,8 @@ exclude:
   - _pages/profiles.md
   - _pages/teaching.md
   - _pages/publications.md
+  - _pages/repositories.md
+  - _pages/projects.md
   - _projects/7_project.md
   - _projects/8_project.md
   - _projects/9_project.md

@@ -5,7 +5,7 @@ description: A study on the effects of camera defects on object recognition in a
 img: assets/img/camera.jpg
 importance: 1
 category: Research
-giscus_comments: true
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.
