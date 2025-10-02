@@ -9,21 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "projects",
-          description: "Some of the projects I&#39;ve worked on- for work, research, and for fun!",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "nav-resume",
+  },{id: "nav-resume",
           title: "resume",
           description: "My Resume",
           section: "Navigation",
@@ -445,7 +431,7 @@ ninja.data = [{
               window.location.href = "/projects/work_project_1/";
             },},{id: "projects-oculii-internship-2025",
           title: 'Oculii Internship 2025',
-          description: "a project with no image",
+          description: "Created a CARLA Simulation environment to aid in model training.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/work_project_2/";
             },},{id: "projects-jpmc-internship-2024",
@@ -460,7 +446,7 @@ ninja.data = [{
               window.location.href = "/projects/work_project_4/";
             },},{id: "projects-oculli-internship-2025",
           title: 'Oculli Internship 2025',
-          description: "another without an image",
+          description: "Prepared for the Consumer Electronics Show (CES) by developing tools for data synchronization and calibration",
           section: "Projects",handler: () => {
               window.location.href = "/projects/work_project_5/";
             },},{
