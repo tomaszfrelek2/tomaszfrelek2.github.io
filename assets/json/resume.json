@@ -215,7 +215,7 @@
         ]
       }
   ],
-  "project": [
+  "projects": [
     {
       "name": "NASA Airport Throughput Prediction Challenge",
       "summary": "Collaborated on a small team to develop a regression model to forecast airport throughput for U.S. airports.",
