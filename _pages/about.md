@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: pfp.jpg
+  image: pfp.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>tfrelek@ucsd.edu</p>
