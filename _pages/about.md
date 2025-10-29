@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-About Me
+
 Hello! I'm a Computer Science grad student at UC San Diego, and I'm all about building smarter autonomous systems. My journey started at The Ohio State University, where I double-majored in Computer Science Engineering and Theoretical Math. That combo gave me a great toolkit for tackling the really tough and interesting problems in AI, computer vision, and robotics.
 
 I love working on the tech that helps autonomous systems see and understand the world! My time as a Radar Perception Engineer at Oculii was a blast—I got to develop transformer models for 3D object detection and work on a autonomous driving stack for radar vision! Before that, I spent a couple of summers at JPMorgan Chase, where I got a deep dive into large-scale software engineering, building high-speed data tools and services that managed petabytes of information for hundreds of developer teams. You can see my full work history on my [linkedin](https://linkedin.com/in/tomasz-frelek-bb93291a1) (and feel free to add me!)
