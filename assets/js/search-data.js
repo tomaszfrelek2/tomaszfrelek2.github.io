@@ -384,71 +384,16 @@ ninja.data = [{
           description: "Made a chess game with AI opponents and ascii graphics!",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fun_project_chess/";
-            },},{id: "projects-disease-modeling",
-          title: 'Disease Modeling',
-          description: "Modeled how a population&#39;s awareness of a disease affects its spread.",
+            },},{id: "projects-geometric-tricopter-controller",
+          title: 'Geometric Tricopter Controller',
+          description: "Developed a non-linear tracking control strategy for a Y-configuration tricopter on the SE(3) manifold.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/fun_project_disease/";
-            },},{id: "projects-nasa-airport-throughput-prediction-challenge",
-          title: 'NASA Airport Throughput Prediction Challenge',
-          description: "Developed a deep learning model to forecast airport throughput for U.S. airports",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/fun_project_nasa/";
-            },},{id: "projects-rag-llm",
-          title: 'RAG LLM',
-          description: "Created an AI research assistant that retrieves relevant research papers from ArXiv.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/fun_project_rag/";
+              window.location.href = "/projects/fun_project_drone_controller/";
             },},{id: "projects-cvpr-2025-anti-uav-challenge",
           title: 'CVPR 2025 Anti-UAV Challenge',
-          description: "Developed an UAV tracking and detection system using SiamFC and YOLOv11",
+          description: "Developed a UAV tracking and detection system using SiamFC and YOLOv11.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fun_project_uav/";
-            },},{id: "projects-static-segmentation-by-tracking",
-          title: 'Static Segmentation by Tracking',
-          description: "Utilized SAM2 for fine-grained segmentation.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/research_project_butterfly/";
-            },},{id: "projects-effects-of-camera-defects",
-          title: 'Effects of Camera Defects',
-          description: "A study on the effects of camera defects on object recognition in autonomous driving.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/research_project_camera/";
-            },},{id: "projects-kitti-model-analysis",
-          title: 'KITTI model analysis',
-          description: "A review of the performance of SOTA models on the KITTI dataset",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/research_project_kitti/";
-            },},{id: "projects-time-series-library",
-          title: 'Time Series Library',
-          description: "Creating a comprehensive python library for time series analysis",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/research_project_signal/";
-            },},{id: "projects-oculli-internship-2025",
-          title: 'Oculli Internship 2025',
-          description: "Developed BEV transformer models for 3D object detection and semantic mapping, as well a auxiliary support tools.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/work_project_1/";
-            },},{id: "projects-oculii-internship-2025",
-          title: 'Oculii Internship 2025',
-          description: "Created a CARLA Simulation environment to aid in model training.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/work_project_2/";
-            },},{id: "projects-jpmc-internship-2024",
-          title: 'JPMC Internship 2024',
-          description: "Created a custom internal interface for Amazon S3",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/work_project_3/";
-            },},{id: "projects-jpmc-internship-2023",
-          title: 'JPMC Internship 2023',
-          description: "Developed a comprehensive health check application for an internal data pipeline service,",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/work_project_4/";
-            },},{id: "projects-oculli-internship-2025",
-          title: 'Oculli Internship 2025',
-          description: "Prepared for the Consumer Electronics Show (CES) by developing tools for data synchronization and calibration",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/work_project_5/";
             },},{
         id: 'social-email',
         title: 'email',
