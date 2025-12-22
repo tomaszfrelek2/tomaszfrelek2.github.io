@@ -1,81 +1,64 @@
 ---
 layout: page
 title: CVPR 2025 Anti-UAV Challenge
-description: Developed an UAV tracking and detection system using SiamFC and YOLOv11
+description: Developed a UAV tracking and detection system using SiamFC and YOLOv11.
 img: assets/img/uav.jpg
 importance: 1
-category: Fun
+category: project
 related_publications: False
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Project Overview:
+CVPR 2025 had an Anti-UAV Challenge (https://anti-uav.github.io), where the goal is accurate drone/uav detection. Two of my friends and I decided to participate. We decided to try two different methods of detection: SiamFC and YOLOv11. The following is a short writeup for the project, but a full report, as well as all the code, is available at https://github.com/tomaszfrelek2/CVPR_2025_Anti-UAV_Challenge.
+---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/drone_images.png" title="Example drone images" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    The Anti-UAV dataset includes diverse scenarios such as clouds, buildings, mountains, and sea backgrounds to test model generalization.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
+
+We utilized a curated subset of the Anti-UAV dataset, subsampling more than 300,000 frames down to 20,000 representative images to ensure computational tractability.
+
+Baseline Approach: SiamFC
+* Implemented Siamese Fully-Convolutional Networks (SiamFC) for UAV tracking.
+* The tracker formulates the problem as similarity learning between an exemplar image and search frames.
+* Limitations: SiamFC struggles with occlusions, rapid motion, and re-identification after disappearance.
+
+Advanced Approach: YOLOv11
+* Utilized the YOLO11s architecture, a lightweight model with ~9.4 million parameters.
+* Performs frame-wise detection independently, allowing for automatic re-detection after occlusions.
+* Strengths: High inference speed and superior robustness across diverse environments.
+
+---
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/siamfc_output.png" title="SiamFC Output" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/yolo11_output.png" title="YOLOv11 Output" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Left: A heatmap produced by SiamFC , where the peak corresponds to the drone's location. Right: Various examples of YOLOv11's drone detections.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+Experimental Results
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+The models were evaluated on 4,000 unseen images to assess their ability to maintain accurate tracking and detection.
 
-{% endraw %}
+| Metric    | SiamFC | YOLOv11 |
+| --------- | ------ | ------- |
+| Precision | 0.409  | 0.96    |
+| mAP@50    | 0.364  | 0.88    |
+| Recall    | 0.391  | 0.834   |
+
+The detection-based approach (YOLO) significantly outperformed the tracking-based baseline, achieving higher precision and handling challenging re-identification scenarios better.

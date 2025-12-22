@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Disease Modeling
-description: Modeled how a population's awareness of a disease affects its spread.
-img: assets/img/virus.jpg
+title: RAG LLM
+description: Created an AI research assistant that retrieves relevant research papers from ArXiv.
+img: assets/img/rag.jpg
 importance: 4
 category: Fun
 related_publications: False

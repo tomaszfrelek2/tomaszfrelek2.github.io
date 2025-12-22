@@ -1,9 +1,9 @@
 ---
 layout: page
-title: NASA Airport Throughput Prediction Challenge
-description: Developed a deep learning model to forecast airport throughput for U.S. airports
-img: assets/img/plane.jpg
-importance: 2
+title: Disease Modeling
+description: Modeled how a population's awareness of a disease affects its spread.
+img: assets/img/virus.jpg
+importance: 5
 category: Fun
 related_publications: False
 ---

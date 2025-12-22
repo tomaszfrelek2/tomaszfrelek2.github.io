@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Some of the projects I've worked on- for work, research, and for fun!
+description: Some of the projects I've worked on- for work, research, and for fun! Most have code/reports available at https://github.com/tomaszfrelek2
 nav: true
 nav_order: 3
-display_categories: [Work, Research, Fun]
+display_categories: [project]
 horizontal: false
 ---
 
