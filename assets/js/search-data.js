@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-resume",
+  },{id: "nav-projects",
+          title: "projects",
+          description: "Some of the projects I&#39;ve worked on- for work, research, and for fun! Most have code/reports available at https://github.com/tomaszfrelek2",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-resume",
           title: "resume",
           description: "My Resume",
           section: "Navigation",
