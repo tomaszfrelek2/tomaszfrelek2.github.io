@@ -2,7 +2,7 @@
 layout: page
 title: Geometric Tricopter Controller
 description: Developed a non-linear tracking control strategy for a Y-configuration tricopter on the SE(3) manifold.
-img: assets/img/tricopter_main.jpg
+img: assets/img/tricopter_main.png
 importance: 2
 category: project
 related_publications: False
