@@ -3,8 +3,8 @@ layout: page
 title: Chess w/ AI
 description: Made a chess game with AI opponents and ascii graphics!
 img: assets/img/chess.jpg
-importance: 6
-category: Fun
+importance: 3
+category: project
 related_publications: False
 ---
 This is a pretty old project, but one I'm still pretty proud of! 
