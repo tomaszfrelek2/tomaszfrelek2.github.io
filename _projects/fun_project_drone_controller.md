@@ -24,7 +24,6 @@ When modeling 3D rotation and translation, traditional methods often fall short:
 
 By formulating our controller geometrically, directly on the **Special Euclidean group $SE(3)$** using rotation matrices, we eliminate these difficulties and create a globally consistant controller thta works no matter the drone's position/attitude.
 
-
 The rest of this page is an outline/summary of the geometric controller I developed, proved, and simulated. For the full controller structure and proofs of the stability analysis, you should read the paper. It's a little technical, but its available along with the simulation code at https://github.com/tomaszfrelek2/geometric-controller.
 ---
 

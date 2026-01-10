@@ -28,7 +28,7 @@ latest_posts:
 ---
 
 
-Hello! I'm a Computer Science masters student at UC San Diego, and I'm intersted in developing state-of-the-art perception and scence understanding models for autonomous systems. 
+Hello! I'm a Computer Science masters student at UC San Diego, and I'm interested in developing state-of-the-art perception and scene understanding models for autonomous systems. 
 
 For undergrad I went to The Ohio State University, where I double-majored in Computer Science Engineering and Theoretical Math. That combo gave me a great toolkit for tackling problems in AI, computer vision, and robotics.
 
@@ -36,6 +36,6 @@ I interned as a Radar Perception Engineer at Oculii, where I got to develop tran
 
 My research experiences have allowed me to explore some exciting challenges in machine learning. Under the guidance of [Dr.JohnPaparrizos](https://www.paparrizos.org), I helped compile a comprehensive library of timeseries classification and forecasting algorithms and implemented novel deep-learning models. In [Dr.HarryChao](https://sites.google.com/view/wei-lun-harry-chao/home)’s computer vision lab, I've had the chance to work on two fascinating frontiers: Imageomics to analyze biological data through machine learning, and tackling the challenge of learning from imperfect data to improve perception systems in autonomous driving. Recently, I've joined [Dr.HenrikChristensen](https://hichristensen.com/)'s Cognative Robotics lab to work on the autonomous scooter [project](https://www.cogrob.org/project/). It's been a lot of fun so far and I'm learning new things every day!
 
-I work on many side projects in my free-time. I enjoy competing in conference competitions, (most recently CVPR 2025), and I've also poured a lot of time into collaborative projects like Buckeye AutoDrive (OSU's self-driving car project), where I worked on the perception team to help our autonomous car see and navigate the world. Most of my projects are available on my [github](https://tomaszfrelek2.github.io/).
+I work on many side projects in my free-time. I enjoy competing in conference competitions, and I've also poured a lot of time into collaborative projects like Buckeye AutoDrive (OSU's self-driving car project), where I worked on the perception team to help our autonomous car see and navigate the world. Most of my projects are available on my [github](https://tomaszfrelek2.github.io/).
 
-When I'm not in front of a computer, I'm probably outside. I like rock-climbing, hiking, playing pickup, walking my dogs (I have 4!). Currently I'm learning how to surf, my balance sucks so let me know if you have any advice! 
+<!-- When I'm not in front of a computer, I'm probably outside. I like rock-climbing, hiking, playing pickup, walking my dogs (I have 4!). Currently I'm learning how to surf, my balance sucks so let me know if you have any advice!  -->
