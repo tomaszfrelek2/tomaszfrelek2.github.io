@@ -386,21 +386,41 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "projects-chess-w-ai",
+      },{id: "projects-data-scientist-agentic-system",
+          title: 'Data Scientist Agentic System',
+          description: "An autonomous LLM-based agent for end-to-end exploratory and regression analysis using constrained tool use.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fun_project_agent/";
+            },},{id: "projects-chess-w-ai",
           title: 'Chess w/ AI',
           description: "Made a chess game with AI opponents and ascii graphics!",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fun_project_chess/";
+            },},{id: "projects-implementation-of-awareness-into-epidemiological-models",
+          title: 'Implementation of Awareness Into Epidemiological Models',
+          description: "Adapting an extended SEIR model to simulate how short and long-term population awareness impacts the spread of COVID-19, H1N1, and Seasonal Flu.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fun_project_disease/";
             },},{id: "projects-geometric-tricopter-controller",
           title: 'Geometric Tricopter Controller',
           description: "Developed a non-linear tracking control strategy for a Y-configuration tricopter on the SE(3) manifold.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fun_project_drone_controller/";
+            },},{id: "projects-nasa-airport-throughput-prediction-challenge",
+          title: 'NASA Airport Throughput Prediction Challenge',
+          description: "Developed a deep learning model to forecast airport throughput for U.S. airports",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fun_project_nasa/";
             },},{id: "projects-cvpr-2025-anti-uav-challenge",
           title: 'CVPR 2025 Anti-UAV Challenge',
           description: "Developed a UAV tracking and detection system using SiamFC and YOLOv11.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fun_project_uav/";
+            },},{id: "projects-impact-of-camera-defects-on-detection",
+          title: 'Impact of Camera Defects on Detection',
+          description: "A comprehensive study on the resilience of YOLOv11 against sensor degradation and the efficacy of adversarial training.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/research_project_camera/";
             },},{
         id: 'social-email',
         title: 'email',
