@@ -3,7 +3,7 @@ layout: page
 title: Impact of Camera Defects on Detection
 description: A comprehensive study on the resilience of YOLOv11 against sensor degradation and the efficacy of adversarial training.
 img: assets/img/camera.jpg
-importance: 6
+importance: 4
 category: project
 related_publications: False
 ---

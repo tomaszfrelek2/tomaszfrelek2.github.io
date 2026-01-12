@@ -3,7 +3,7 @@ layout: page
 title: Implementation of Awareness Into Epidemiological Models
 description: Adapting an extended SEIR model to simulate how short and long-term population awareness impacts the spread of COVID-19, H1N1, and Seasonal Flu.
 img: assets/img/virus.jpg
-importance: 5
+importance: 6
 category: project
 related_publications: False
 ---

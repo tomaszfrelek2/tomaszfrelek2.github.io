@@ -22,7 +22,7 @@ When modeling 3D rotation and translation, traditional methods often fall short:
 * **Euclidean/Euler Angles:** Object translation is represented by x,y,z vector and attitude is represented with yaw, pitch, roll angles. These local parametrizations suffer from mathematical singularities, such as gimbal lock, which can cause control laws to fail during complex maneuvers.
 * **Quaternions:** Object translation and orientation is uniquely represented by one 4-dimensional vector q = [w,x,y,z]. While they avoid singularities, quaternions have their own failure point, in that q = -q, meaning that there is always ambiguity when dealing with a quaternion measurment.
 
-By formulating our controller geometrically, directly on the **Special Euclidean group $SE(3)$** using rotation matrices, we eliminate these difficulties and create a globally consistant controller thta works no matter the drone's position/attitude.
+By formulating our controller geometrically, directly on the **Special Euclidean group $SE(3)$** using rotation matrices, we eliminate these difficulties and create a globally consistant controller that works no matter the drone's position/attitude.
 
 The rest of this page is an outline/summary of the geometric controller I developed, proved, and simulated. For the full controller structure and proofs of the stability analysis, you should read the paper. It's a little technical, but its available along with the simulation code at https://github.com/tomaszfrelek2/geometric-controller.
 ---

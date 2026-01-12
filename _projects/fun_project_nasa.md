@@ -3,7 +3,7 @@ layout: page
 title: NASA Airport Throughput Prediction Challenge
 description: Developed a deep learning model to forecast airport throughput for U.S. airports
 img: assets/img/plane.jpg
-importance: 4
+importance: 1
 category: project
 related_publications: False
 ---

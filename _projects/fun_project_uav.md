@@ -3,13 +3,13 @@ layout: page
 title: CVPR 2025 Anti-UAV Challenge
 description: Developed a UAV tracking and detection system using SiamFC and YOLOv11.
 img: assets/img/uav.jpg
-importance: 1
+importance: 5
 category: project
 related_publications: False
 ---
 
 Project Overview:
-CVPR 2025 had an Anti-UAV Challenge (https://anti-uav.github.io), where the goal is accurate drone/uav detection. Two of my friends and I decided to participate. We decided to try two different methods of detection: SiamFC and YOLOv11. The following is a short writeup for the project, but a full report, as well as all the code, is available at https://github.com/tomaszfrelek2/CVPR_2025_Anti-UAV_Challenge.
+CVPR 2025 had an [Anti-UAV Challenge](https://anti-uav.github.io), where the goal is accurate drone/uav detection. Two of my friends and I decided to participate. We decided to try two different methods of detection: SiamFC and YOLOv11. The following is a short writeup for the project, but a full report, as well as all the code, is available at my [github](https://github.com/tomaszfrelek2/CVPR_2025_Anti-UAV_Challenge).
 ---
 
 <div class="row">
