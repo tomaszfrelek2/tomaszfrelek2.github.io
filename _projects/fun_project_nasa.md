@@ -8,8 +8,6 @@ category: project
 related_publications: False
 ---
 
-# Project Summary: NASA Airport Throughput Prediction Challenge
-
 ## 1. Project Overview
 In the fall of 2024, my lab participated in the [NASA Airport Throughput Prediction Challenge](https://bitgrit.net/competition/23). The challenge, part of the NASA Air Traffic Management - eXploration (ATM-X) project, focused on improving the operational efficiency of the National Airspace System (NAS). The core objective was to develop a high-precision regression model to forecast arrival throughput—the number of aircraft landing at an airport—over 15-minute intervals for a rolling 3-hour window.
 

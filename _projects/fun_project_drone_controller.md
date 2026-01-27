@@ -36,25 +36,16 @@ This project presents a **geometric tracking control strategy** defined globally
 ---
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/tricopter_model.png" title="Tricopter Model" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    The standard Y-configuration tricopter model features two fixed front rotors and one rear rotor mounted on a tilting servo mechanism.
-</div>
-
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/servo_angle.png" title="Servo Angle" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Tilting the rear rotor to yaw the drone will also create unwanted translational movement. This complicates the controller dynamics.
+    (Left) The standard Y-configuration tricopter model features two fixed front rotors and one rear rotor mounted on a tilting servo mechanism. (Right) Tilting the rear rotor to yaw the drone will also create unwanted translational movement. This complicates the controller dynamics.
 </div>
-
-
 ---
 
 ## Methodology
